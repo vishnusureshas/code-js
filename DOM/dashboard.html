@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+     <h1>Welcome User</h1>
+     <div class="main-body text-center">
+        <div class="calc text-center">
+            <div class="text-center">
+                <input id="result" type="text" class="form-control">
+
+            </div>
+            <div class="buttons">
+                <button class="btn" onclick="allClear()">C</button>
+                <div class="row">
+                    <button class='btn' onclick="displayNum('7')">7</button>
+                    <button class='btn' onclick="displayNum('8')">8</button>
+                    <button class='btn' onclick="displayNum('9')">9</button>
+                    <button class='btn' onclick="displayNum('*')">x</button>
+
+                </div>
+                <div class="row">
+                    <button class='btn' onclick="displayNum('4')">4</button>
+                    <button class='btn' onclick="displayNum('5')">5</button>
+                    <button class='btn' onclick="displayNum('6')">6</button>
+                    <button class='btn' onclick="displayNum('-')">-</button>
+                   
+                </div>
+                <div class="row">
+                    <button class='btn' onclick="displayNum('1')">1</button>
+                    <button class='btn' onclick="displayNum('2')">2</button>
+                    <button class='btn' onclick="displayNum('3')">3</button>
+                    <button class='btn' onclick="displayNum('+')">+</button>
+                  
+                </div>
+                <div class="row">
+                    <button class='btn' onclick="displayNum('.')">.</button>
+                    <button class='btn' onclick="displayNum('0')">0</button>
+                    <button class='btn' onclick="displayNum('/')">/</button>
+                    <button class='btn' onclick="evalExp()">=</button>                   
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="lastDigit()">Del</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./dashboard.js"></script>
+</html>

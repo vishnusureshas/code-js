@@ -1,0 +1,74 @@
+    //              Java Script
+
+    //   1.display content - console.log()
+
+    //   2.to store data - variable
+
+    //   3.Identifiers 
+    
+    //   4.variable - const/let/var
+
+    //   5.comments
+
+    //   6.Data types
+
+    //   7.Operators 
+
+    //   8.Conditional statements - 
+           //if(condtion) {
+            // when it true
+        // }
+        // else{
+            // when it false
+        // }
+
+    //   9.Looping statements
+            // 9.1 while loop
+            // syntax:
+            // 1.Initialise variable
+            // 2.while(condition){
+                //   when condition is true 
+                //   execute while body
+                //   change value of variable that you used in th condition
+               // }
+
+            // 9.2 for loop
+            // syntax:
+            // for(initialization;condition;increment/decrement){
+                  // when condition is true 
+                 //  execute while body
+            // }
+
+            // 9.3 Nested loop - loop inside another loop
+
+    //   10.Function
+            // function definition
+            // function function-name(parameters)  {
+                    //   function body - step to solve task
+            // }
+            // function call
+            // function-name(arguments)
+
+   //    11.Array 
+
+   //       Array Function
+   //       1.sort() 
+   //       2.push()
+   //       3.pop()  
+   //       4.filter()  
+   //       5.find()
+   //       6.map()
+   //       7.reduce() / reduceRight()
+   //       8.some()
+   //       9.forEach()
+   //       10.flat()
+   //       11.includes() 
+
+//       12.Objects
+
+//       13.Object Oriented programming (OOPs)
+//           13.1 Objects
+//           13.2 Class
+//           13.3 Reference
+
+ 
